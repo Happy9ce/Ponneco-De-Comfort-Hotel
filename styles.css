@@ -1,0 +1,85 @@
+* {
+  margin:10;
+  padding: 5;
+  box-sizing: border-box;
+}
+
+
+/* Header Section */
+header {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #363f60;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  display: inline;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #363f60;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c66b5f;
+  text-decoration: underline;
+}
+
+.book-now {
+  background-color: #c66b5f;
+  display: inline;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.book-now a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.book-now:hover {
+  background-color: #363f60;
+}
+
+/* Hero Section */
+.hero-content {
+  background-image: url('hero.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  color: #363f60
+}
+
+.take-room {
+  background-color: #c66b5f;
+  display: inline;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px; 
+}
+
+.take-room a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.take-room:hover {
+  background-color: #363f60;
+}
