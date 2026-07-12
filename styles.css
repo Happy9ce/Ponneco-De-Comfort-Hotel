@@ -1,6 +1,6 @@
 * {
-  margin:10;
-  padding: 5;
+  margin:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -8,10 +8,13 @@
 /* Header Section */
 header {
   background-color: #f8f9fa;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px
 }
 
 h1 {
-  font-size: 2.5rem;
   color: #363f60;
   text-align: left;
   text-transform: uppercase;
@@ -55,14 +58,28 @@ nav a:hover {
 }
 
 /* Hero Section */
-.hero-content {
-  background-image: url('hero.png');
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  color: #363f60
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 0 80px;
+    background-image: url('hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #363f60;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .take-room {
