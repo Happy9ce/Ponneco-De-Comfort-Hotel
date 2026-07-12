@@ -140,4 +140,75 @@ nav a:hover {
   width: 100px;
 }
 
+/* Featured Rooms Section */
+
+.rooms h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #363f60;
+}
+
+.featured-rooms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+  gap: 5px;
+}
+
+.executive-room, .deluxe-room, .standard-room {
+  border:1px solid #3f3f3f;  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.view-details {
+  background-color: #363f60;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.view-details a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.view-details:hover {
+  background-color: #c66b5f;
+}
+
+.room-details {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.room-details h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #363f60;
+}
+
+.room-details p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #363f60;
+}
+
+.room-details p span {
+  font-weight: bold;
+  color: #c66b5f;
+}
+
+
+
+
+
+
+
 
